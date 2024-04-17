@@ -1,6 +1,9 @@
-#pragma once
+module;
 
-namespace lwlog
+export module flush_policy;
+import std;
+
+export namespace lwlog
 {
 	template<std::size_t BufferSize = (1 << 22)>
 	struct buffered_flush_policy

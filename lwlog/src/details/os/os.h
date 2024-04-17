@@ -1,7 +1,7 @@
 #pragma once
 
 #ifdef _WIN32
-	#include "details/windows_lightweight.h"
+	import "Windows.h";
 #elif defined(__linux__) || defined(__APPLE__)
 	#include <unistd.h>
 	#include <sys/syscall.h>

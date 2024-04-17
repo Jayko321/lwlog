@@ -4,8 +4,9 @@
 #include <array>
 #include <string>
 
+
 #ifdef _WIN32
-	#include "details/windows_lightweight.h"
+	import "Windows.h";
 #else
 	#include <ctime>
 #endif

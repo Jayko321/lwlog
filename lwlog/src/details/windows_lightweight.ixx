@@ -1,4 +1,4 @@
-#pragma once
+export module windows_lightweight;
 
 #define WIN32_LEAN_AND_MEAN
 #define NOCRYPT
@@ -41,5 +41,3 @@
 #define NOPROFILER
 #define NODEFERWINDOWPOS
 #define NOMCX
-
-#include <Windows.h>

@@ -2,7 +2,7 @@
 
 #include "level.h"
 #include "details/pattern/pattern.h"
-#include "policy/flush_policy.h"
+import flush_policy;
 #include "policy/threading_policy.h"
 #include "interface/sink_interface.h"
 
