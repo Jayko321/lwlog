@@ -13,6 +13,7 @@ project "lwlog"
 	files {
 		"%{prj.name}/src/**.h",
 		"%{prj.name}/src/**.cpp",
+		"%{prj.name}/src/**.cppm",
 		"%{prj.name}/src/**.ixx"
 	}
 
